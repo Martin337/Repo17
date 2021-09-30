@@ -1,0 +1,134 @@
+html{
+    margin: 0px;
+    height: 100%;
+}
+
+body{
+    font-family: Helvetica, sans-serif;
+}
+
+#wrapper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#left{
+    position: relative;
+    float: left;
+    background-color: black;
+    width: 40%;
+    height: 100%;
+}
+
+#signin{
+    position: relative;
+    width: 100%;
+    height: 80%;
+    text-align: center;
+}
+
+.logo{
+    margin: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+form{
+    width: 100%;
+    height: 30%;
+    color: white;
+}
+form label{
+    text-align: left;
+    display: block;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+form input{
+    display: block;
+    background-color: black;
+    border: 1px solid gray;
+    height: 35px;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 5px;
+}
+
+.primary-btn{
+    border-radius: 0;
+    border: 1px solid rgb(135, 206, 235);
+    margin-top: 5%;
+    height: 35px;
+    width: 60%;
+    background-color: rgb(135, 206, 235);
+    color: white;
+    font-weight: bold;
+}
+
+#links a{
+    text-decoration: none;
+}
+
+.hr-bar{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.bar{
+    width: 60%;
+}
+
+.secondary-btn{
+    display: block;
+    margin-left:20%;
+    height: 5%;
+    width: 60%;
+    background-color: gray;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+#main-footer{
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+#main-footer a{
+    float: left;
+    width: 30%;
+    text-decoration: none;
+    color: white;
+    margin-right: 5%;
+}
+
+
+#right{
+    position: relative;
+    float: left;
+    width: 60%;
+    height: 100%;
+    background-size: cover;
+    background-image: url(https://image.ibb.co/cO9Lxq/login-bg.jpg);
+    background-repeat: no-repeat;
+}
+
+#showcase{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+#showcase-content{
+    margin-top: 35%;
+    text-align: center;
+    color: white;
+
+}
