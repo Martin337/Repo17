@@ -44,6 +44,7 @@ function findUserById(id){
         var user = _.find(users, {'id': id,});
         var iFindUser = "";
         iFindUser = iFindUser.concat(user.id + " - " + user.firstName + " " + user.lastName + " is " + user.age + ", " + user.gender);
+        return iFindUser;
     } catch (error){
         console.log("Cannot read property 'id'");
         return "Cannot read property 'id'";

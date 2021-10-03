@@ -39,7 +39,7 @@ function findUser(lastName, gender){
     try{
         var user = _.find(users, {'lastName': lastName, 'gender': gender});
         var iFindUser = "";
-        iFindUser = iFindUser.concat(user.firstName + " " + user.lastName + " is " + user.age + ", " + user.gender + "\n");
+        iFindUser = iFindUser.concat(user.firstName + " " + user.lastName + " is " + user.age + ", " + user.gender);
         return iFindUser;
     } catch (error){
         console.log("Cannot read property 'firstName' of undefined");
